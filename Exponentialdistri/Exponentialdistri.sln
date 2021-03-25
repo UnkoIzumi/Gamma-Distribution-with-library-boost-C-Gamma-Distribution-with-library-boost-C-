@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Exponentialdistri", "Exponentialdistri.vcxproj", "{EFC3945D-A94C-4577-9019-457D6D5C419E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Debug|x64.ActiveCfg = Debug|x64
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Debug|x64.Build.0 = Debug|x64
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Debug|x86.ActiveCfg = Debug|Win32
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Debug|x86.Build.0 = Debug|Win32
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Release|x64.ActiveCfg = Release|x64
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Release|x64.Build.0 = Release|x64
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Release|x86.ActiveCfg = Release|Win32
+		{EFC3945D-A94C-4577-9019-457D6D5C419E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {599A8D60-D164-45D7-B0D4-C541F9C02879}
+	EndGlobalSection
+EndGlobal
