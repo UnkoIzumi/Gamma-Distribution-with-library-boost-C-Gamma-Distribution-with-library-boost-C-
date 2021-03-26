@@ -1,0 +1,2 @@
+C:\Users\GameDev\source\repos\Exponentialdistri\Debug\Exponentialdistri.exe
+C:\Users\GameDev\source\repos\Exponentialdistri\Debug\Exponentialdistri.pdb
