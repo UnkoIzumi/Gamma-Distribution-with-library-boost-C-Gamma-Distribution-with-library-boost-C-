@@ -72,40 +72,4 @@ public:
 };
 
 int main() {
-	exponent Demo;
-	int user;
-
-	do {
-		user = Demo.menu();
-		switch (user) {
-		case 1:
-			system("cls");
-			Demo.diantara();
-			system("pause");
-			break;
-		case 2:
-			system("cls");
-			Demo.kurangdari();
-			system("pause");
-			break;
-		case 3:
-			system("cls");
-			Demo.lebihdari();
-			system("pause");
-			break;
-		case 4:
-			system("cls");
-			break;
-		default:
-			if (!user) {
-				cout << "\n--Pilihan anda tidak ditemukan--" << endl;
-				cin.clear();
-				cin.ignore();
-			}
-			system("cls");
-			break;
-		}
-	} while (user != 4);
-	
-	return 0;
 }
