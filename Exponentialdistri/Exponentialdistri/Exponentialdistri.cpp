@@ -2,8 +2,8 @@
 //
 
 #include <iostream> // input output program
-#include <iomanip> // input output manipuasi
-#include <cmath> // matematic logika
+#include <iomanip> // input output manipulasi
+#include <cmath> // matematic logic
 #include <cstdlib> // system pause and clear
 using namespace std;
 
@@ -14,12 +14,12 @@ private :
 	double phi = 0, persen = 0, P = 0, P1 = 0, P2 = 0;
 public:
 	void kurangdari() {
-		cout << " == Proram Kurang Dari == " << endl;
-		cout << " Nilai lamda : "; cin >> lamda;
+		cout << " == Program Kurang Dari == " << endl;
+		cout << " Nilai phi   : "; cin >> phi;
 		cout << " Nilai X     : "; cin >> X;
 
-		phi = 1 / lamda;
-		F = -phi * X;
+		lamda = 1 / phi;
+		F = -lamda * X;
 		P = 1 - pow(e, F);
 		persen = abs(P) * 100;
 		cout << "\nProbabilitasnya adalah " << fixed << setprecision(3) << abs(P) << endl;
@@ -27,12 +27,12 @@ public:
 	}
 
 	void lebihdari() {
-		cout << " == Proram Kurang Dari == " << endl;
-		cout << " Nilai lamda : "; cin >> lamda;
+		cout << " == Program Lebih Dari == " << endl;
+		cout << " Nilai phi   : "; cin >> phi;
 		cout << " Nilai X     : "; cin >> X;
 
-		phi = 1 / lamda;
-		F = -phi * X;
+		lamda = 1 / phi;
+		F = -lamda * X;
 		P = pow(e, F);
 		persen = abs(P) * 100;
 		cout << "\nProbabilitasnya adalah " << fixed << setprecision(3) << abs(P) << endl;
@@ -40,14 +40,15 @@ public:
 	}
 
 	void diantara() {
-		cout << " == Proram Kurang Dari == " << endl;
-		cout << " Nilai lamda : "; cin >> lamda;
+		cout << " == Program Diantara == " << endl;
+		cout << " Nilai Phi    : "; cin >> phi;
 		cout << " Nilai X1     : "; cin >> X1;
 		cout << " Nilai X2     : "; cin >> X2;
 		cout << "\n *ket X1 adalah nilai akhir" << endl;
-		phi = 1 / lamda;
-		F1 = -phi * X1;
-		F2 = -phi * X2;
+		
+		lamda = 1 / phi;
+		F1 = -lamda * X1;
+		F2 = -lamda * X2;
 		P1 = 1 - pow(e, F1);
 		P2 = 1 - pow(e, F2);
 		P = P1 - P2;
