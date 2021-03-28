@@ -1,3 +1,8 @@
+//rumus exponential: https://www.youtube.com/watch?v=J3KSjZFVbis
+
+
+
+
 // Exponentialdistri.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
