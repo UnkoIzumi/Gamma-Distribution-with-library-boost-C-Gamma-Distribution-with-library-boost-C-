@@ -16,14 +16,14 @@ class exponent {
 private :
 	const double e = 2.71828;
 	double X = 0, lamda = 0, X1 = 0, X2 = 0, F = 0, F1 = 0,  F2 =0;
-	double phi = 0, persen = 0, P = 0, P1 = 0, P2 = 0;
+	double miu = 0, persen = 0, P = 0, P1 = 0, P2 = 0;
 public:
 	void kurangdari() {
 		cout << " == Program Kurang Dari == " << endl;
-		cout << " Nilai phi   : "; cin >> phi;
+		cout << " Nilai Miu   : "; cin >> miu;
 		cout << " Nilai X     : "; cin >> X;
 
-		lamda = 1 / phi;
+		lamda = 1 / miu;
 		F = -lamda * X;
 		P = 1 - pow(e, F);
 		persen = abs(P) * 100;
@@ -33,10 +33,10 @@ public:
 
 	void lebihdari() {
 		cout << " == Program Lebih Dari == " << endl;
-		cout << " Nilai phi   : "; cin >> phi;
+		cout << " Nilai Miu   : "; cin >> miu;
 		cout << " Nilai X     : "; cin >> X;
 
-		lamda = 1 / phi;
+		lamda = 1 / miu;
 		F = -lamda * X;
 		P = pow(e, F);
 		persen = abs(P) * 100;
@@ -46,12 +46,12 @@ public:
 
 	void diantara() {
 		cout << " == Program Diantara == " << endl;
-		cout << " Nilai Phi    : "; cin >> phi;
+		cout << " Nilai Miu    : "; cin >> miu;
 		cout << " Nilai X1     : "; cin >> X1;
 		cout << " Nilai X2     : "; cin >> X2;
 		cout << "\n *ket X1 adalah nilai akhir" << endl;
 		
-		lamda = 1 / phi;
+		lamda = 1 / miu;
 		F1 = -lamda * X1;
 		F2 = -lamda * X2;
 		P1 = 1 - pow(e, F1);
